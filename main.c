@@ -83,7 +83,6 @@ void analyze(char *in_file, int ref_ms) {
 int main(int argc, char *argv[]) {
     printf("Replay Gain Analysis\n");
     printf("blog:http://cpuimage.cnblogs.com/\n");
-    printf("e-mail:gaozhihan@vip.qq.com\n");
     if (argc < 2)
         return -1;
     char *in_file = argv[1];
